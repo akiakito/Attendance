@@ -1,0 +1,57 @@
+.login__whole {
+    background-color: #f2f2f2;
+    padding: 30px 50px;
+    text-align: center;
+    height: 670px;
+}
+
+.login__div {
+    margin: 30px auto;
+}
+
+.div {
+    margin-bottom: 20px;
+    height: 45px;
+}
+
+.input {
+    width: 50%;
+    height: 45px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.login__button {
+    margin-bottom: 30px;
+    height: 45px;
+}
+
+.button {
+    background-color: blue;
+    color: #fff;
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.register__p {
+    color: rgb(168, 168, 168);
+    margin-bottom: 0px;
+}
+
+.register__a {
+    margin-top: 0px;
+    color: blue;
+    text-decoration: none;
+}
+
+.small {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+}

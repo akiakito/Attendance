@@ -1,0 +1,31 @@
+.date__whole {
+    background-color: #f2f2f2;
+    padding: 30px 50px;
+    text-align: center;
+    height: 670px;
+}
+.good {
+    margin: 30px auto;
+}
+.table__div{
+    width: 100%;
+}
+.day__table{
+    width: 100%;
+}
+.day__tr{
+    height: 78px;
+    border-bottom: 1px solid #ddd;
+}
+.day__th{
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+}
+.small{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+}

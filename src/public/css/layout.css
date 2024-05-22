@@ -1,0 +1,20 @@
+.header{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.Category{
+    display: flex;
+}
+.Category__div{
+    margin: 10px 20px;
+}
+.Category__a{
+    color: black;
+    text-decoration: none;
+}
