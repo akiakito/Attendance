@@ -19,6 +19,7 @@
         </a>
     </div>
     <div class="Category">
+        @if (Auth::check())
         <div class="Category__div">
             <a class="Category__a"href="/">
                 ホーム
@@ -30,10 +31,12 @@
             </a>
         </div>
         <div class="Category__div">
-            <a class="Category__a"href="/">
-                ログアウト
-            </a>
+            <form class="header_form" action="/logout" method="post">
+                @csrf
+                <button class="header-nav__button">ログアウト</button>
+            </form>
         </div>
+        @endif
     </div>
 </header>
 
