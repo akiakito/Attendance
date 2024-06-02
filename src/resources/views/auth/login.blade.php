@@ -11,9 +11,10 @@
             ログイン
         </h2>
     </div>
-    <form class="form">
+    <form class="form"action="/login" method="post">
+        @csrf
         <div class="div">
-            <input class="input"type="email"name="email"placeholder="メールアドレス">
+            <input class="input"type="email"name="email"placeholder="メールアドレス"value="{{ old('email') }}">
         </div>
         <div class="div">
             <input class="input"type="password"name="password"placeholder="パスワード">
@@ -26,7 +27,7 @@
         <p class="register__p">
             アカウントをお持ちでない方はこちらから
         </p>
-        <a class="register__a" href="/">
+        <a class="register__a" href="/register">
             会員登録
         </a>
     </div>
