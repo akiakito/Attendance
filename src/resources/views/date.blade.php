@@ -21,11 +21,41 @@
                 <th class="day__th">勤務時間</th>
             </tr>
             <tr class="day__tr">
-                <td class="day__td">テスト太郎</td>
-                <td class="day__td">10:00:00</td>
-                <td class="day__td">20:00:00</td>
-                <td class="day__td">00:30:00</td>
-                <td class="day__td">09:30:00</td>
+                <td class="day__td">
+                    <form class="time_form">
+                        <div class="time__div">
+                            <input class="time__input" type="text" name="name" value="テスト太郎">
+                        </div>
+                    </form>
+                </td>
+                <td class="day__td">
+                    <form class="time_form">
+                        <div class="time__div">
+                            <input class="time__input" type="text" name="start" value="10:00:00">
+                        </div>
+                    </form>
+                </td>
+                <td class="day__td">
+                    <form class="time_form">
+                        <div class="time__div">
+                            <input class="time__input" type="text" name="end" value="20:00:00">
+                        </div>
+                    </form>
+                </td>
+                <td class="day__td">
+                    <form class="time_form">
+                        <div class="time__div">
+                            <input class="time__input" type="text" name="break__start" value="00:30:00">
+                        </div>
+                    </form>
+                </td>
+                <td class="day__td">
+                    <form class="time_form">
+                        <div class="time__div">
+                            <input class="time__input" type="text" name="break__end" value="09:30:00">
+                        </div>
+                    </form>
+                </td>
             </tr>
         </table>
     </div>
